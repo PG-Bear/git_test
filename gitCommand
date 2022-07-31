@@ -20,4 +20,8 @@ git remote add origin [remote repository location]: add a remote repository [nam
 git push origin master:master: push local repository to remote one [name origine], local master branch to remote master branch
 git push --set-upstream origin master:master: bind local master branch with remote master branch, then just need to type 'git push' when on the master branch
 
+git clone rRLocation: clone the remote repository to local
+git fetch [remote name] [branch name]: fetch the remote repository to local
+git pull [remote name] [branch name]: pull the remote repository to local with auto merge the branch
+
 ssh -T git@github.com: to test if it work with ssh
