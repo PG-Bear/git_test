@@ -1,0 +1,23 @@
+# normal command
+git init: initialize a project as a git project
+git add [. or fileName]: add files to stage
+git commit [--m 'massages']: commit files to local reposiroty
+git log [--pretty=online --abbrev-commit --all --graph]: show commit log
+git reflog: show log of actions
+git reset --hard commitID: resset version to specified version with
+
+# branch command
+git branch: show all branches
+git branch branchName: create a new branch
+git branch -d branchName: delete a branch with inspection
+git branch -D branchName: delete a branch forcibly
+git checkout branchName: switch to specified branch
+git checkout -b branName: create a new branch and switch to it
+
+# repository
+git remote: show remote repository
+git remote add origin [remote repository location]: add a remote repository [name origin]
+git push origin master:master: push local repository to remote one [name origine], local master branch to remote master branch
+git push --set-upstream origin master:master: bind local master branch with remote master branch, then just need to type 'git push' when on the master branch
+
+ssh -T git@github.com: to test if it work with ssh
